@@ -1,6 +1,5 @@
 {
-  "name": "isomorphic-fetch",
-  "version": "0.0.0",
+  "name": "nqm-isomorphic-fetch",
   "description": "Isomorphic WHATWG Fetch API, for Node & Browserify",
   "browser": "fetch-npm-browserify.js",
   "main": "fetch-npm-node.js",
@@ -10,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthew-andrews/isomorphic-fetch.git"
+    "url": "https://github.com/nqminds/nqm-isomorphic-fetch.git"
   },
   "author": "Matt Andrews <matt@mattandre.ws>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matthew-andrews/isomorphic-fetch/issues"
+    "url": "https://github.com/nqminds/nqm-isomorphic-fetch/issues"
   },
-  "homepage": "https://github.com/matthew-andrews/isomorphic-fetch/issues",
+  "homepage": "https://github.com/nqminds/nqm-isomorphic-fetch/issues",
   "dependencies": {
     "node-fetch": "^1.0.1",
     "whatwg-fetch": ">=0.10.0"
@@ -30,5 +29,6 @@
     "mocha": "^2.1.0",
     "nock": "^0.56.0",
     "npm-prepublish": "^1.0.2"
-  }
+  },
+  "version": "0.1.0"
 }
