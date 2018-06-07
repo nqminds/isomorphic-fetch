@@ -2,8 +2,11 @@
 // on the global object (window or self)
 //
 // Return that as the export for use in Webpack, Browserify etc.
-if (typeof global.self === "undefined") { // Self is not available by default in react-native
+
+// Self is not available by default in react-native, fix this.
+if (typeof global.self === "undefined") {
   global.self = global;
 }
+
 require('whatwg-fetch');
 module.exports = self.fetch.bind(self);
