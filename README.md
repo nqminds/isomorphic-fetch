@@ -3,6 +3,10 @@ isomorphic-fetch [![Build Status](https://travis-ci.org/matthew-andrews/isomorph
 
 Fetch for node and Browserify.  Built on top of [GitHub's WHATWG Fetch polyfill](https://github.com/github/fetch).
 
+## DEPRECATED
+
+Use https://github.com/lquixada/cross-fetch - this has Promise and react-native support out of the box.
+
 ## Warnings
 
 - This adds `fetch` as a global so that its API is consistent between client and server.
